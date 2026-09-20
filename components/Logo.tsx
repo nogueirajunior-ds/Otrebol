@@ -8,9 +8,9 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ tone, className }) => {
   return (
     <img 
-      src="/images/minha-logo.png" 
-      alt="Otrebol" 
-      className={className || "h-10 w-auto"} 
+      src="/images/logonova.png" 
+      alt="Otrebol Developments" 
+      className={className || "h-12 w-auto object-contain"} 
     />
   );
 };
