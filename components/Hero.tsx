@@ -56,7 +56,7 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="max-w-3xl">
           <motion.h1
             {...item(0)}
@@ -81,6 +81,18 @@ export function Hero() {
             </a>
           </motion.div>
         </div>
+
+        {/* --- LOGO NA DIREITA --- */}
+        <motion.div 
+          {...item(3)} 
+          className="hidden lg:block w-[400px] xl:w-[500px] pointer-events-none"
+        >
+          <img 
+            src="/images/logonova.png" 
+            alt="Otrebol" 
+            className="w-full h-auto object-contain drop-shadow-2xl" 
+          />
+        </motion.div>
       </div>
 
       <StatsBar />
