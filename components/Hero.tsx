@@ -85,7 +85,7 @@ export function Hero() {
         {/* --- LOGO NA DIREITA --- */}
         <motion.div 
           {...item(3)} 
-          className="hidden lg:block w-[400px] xl:w-[500px] pointer-events-none -translate-y-70"
+          className="hidden lg:block w-[400px] xl:w-[500px] pointer-events-none -translate-y-[200px]"
         >
           <img 
             src="/images/logonova.png" 
