@@ -10,7 +10,7 @@ export const Logo: React.FC<LogoProps> = ({ tone, className }) => {
     <img 
       src="/images/logonova.png" 
       alt="Otrebol Developments" 
-      className={className || "h-24 w-auto object-contain"} 
+      className={className || "h-16 w-auto object-contain"} 
     />
   );
 };
