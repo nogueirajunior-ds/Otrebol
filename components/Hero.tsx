@@ -85,12 +85,12 @@ export function Hero() {
         {/* --- LOGO NA DIREITA --- */}
         <motion.div 
           {...item(3)} 
-          className="hidden lg:block w-[400px] xl:w-[500px] pointer-events-none -translate-y-[200px]"
+          className="hidden lg:block w-[400px] xl:w-[500px] pointer-events-none"
         >
           <img 
             src="/images/logonova.png" 
             alt="Otrebol" 
-            className="w-full h-auto object-contain drop-shadow-2xl" 
+            className="w-full h-auto object-contain drop-shadow-2xl -translate-y-[180px]" 
           />
         </motion.div>
       </div>
