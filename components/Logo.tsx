@@ -1,5 +1,4 @@
 import React from 'react';
-import logoImg from '../public/images/minha-logo.png';
 
 interface LogoProps {
   tone?: string;
@@ -9,7 +8,7 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ tone, className }) => {
   return (
     <img 
-      src={logoImg.src} 
+      src="/images/minha-logo.png" 
       alt="Otrebol" 
       className={className || "h-10 w-auto"} 
     />
