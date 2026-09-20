@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from '../public/images/Minha-Logo.png';
+import logoImg from '../public/images/minha-logo.png';
 
 interface LogoProps {
   tone?: string;
