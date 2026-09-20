@@ -1,11 +1,16 @@
 import React from 'react';
 
-export const Logo = () => {
+interface LogoProps {
+  tone?: string;
+  className?: string;
+}
+
+export const Logo: React.FC<LogoProps> = ({ tone, className }) => {
   return (
     <img 
       src="/images/Minha-Logo.png" 
       alt="Otrebol" 
-      className="h-10 w-auto" 
+      className={className || "h-10 w-auto"} 
     />
   );
 };
