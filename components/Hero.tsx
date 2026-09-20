@@ -29,7 +29,7 @@ export function Hero() {
         };
 
   return (
-    <section id={SECTION_IDS.home} className="relative isolate flex min-h-[100svh] items-center bg-navy pb-44 pt-32 sm:pb-40">
+    <section id={SECTION_IDS.home} className="relative isolate z-10 flex min-h-[100svh] items-center bg-navy pb-44 pt-32 sm:pb-40">
       {/* background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         {HERO_IMAGE ? (
